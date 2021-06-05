@@ -1,0 +1,47 @@
+.btn {
+    
+    width: 116px;
+    height: 45px;
+    border-radius: 25px;
+    color: $color-white;
+    font-size: $font-size-sm;
+    background: #f05167;
+
+   
+    &.second {
+        width: 180px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bolder;
+        border-radius: 30px;
+        
+        @media only screen and (max-width: 640px) {
+            width: 252px;
+            font-size: 1em;
+        }
+    }
+    &.secondary {
+        background: #1484c7;
+    
+        margin: 1rem;
+        font-size: 1.3em;
+        width: 180px;
+        height: 60px;
+        font-size: 18px;
+        font-weight: bolder;
+        border-radius: 30px;
+        @media only screen and (max-width: 640px) {
+            width: 252px;
+            font-size: 1em;
+        }
+    }
+
+    &.outline {
+        border: 1px solid rgb(77, 80, 243);
+        color: rgb(77, 80, 243);
+        background: #fff;
+        @media only screen and (max-width: 640px) {
+            width: 252px;
+        }
+    }
+}

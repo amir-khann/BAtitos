@@ -1,0 +1,49 @@
+.row1{
+    display: flex;
+    margin-top: 0px;
+    justify-content: space-between;
+    @media only screen and (max-width: 640px) {
+        flex-direction: column;
+        margin-top: 20px;
+       }
+   
+  
+    }
+   
+
+.progress{
+    display: flex;
+    margin:0rem 16px;
+    @media only screen and (max-width: 640px) {
+        margin: 0px;
+        margin-top: 20px;
+         }
+
+    div{
+        margin: 0px 1rem;
+        // background-color: seagreen;
+    
+        @media only screen and (max-width: 640px) {
+            // background-color: red;
+          width: 2em !important;
+          height: 2em !important;
+           }
+
+        p{
+            color: white;
+            margin: 20px 40px;
+            align-items: center;
+            @media only screen and (max-width: 640px) {
+              
+                margin: 0px !important;
+                padding-top: 5px;
+                font-size: 10px;
+                 }
+        }
+    }
+}
+.CircularProgressbar-path{
+    @media only screen and (max-width: 640px) {
+        width: 4px !important;
+         }
+}

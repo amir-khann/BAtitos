@@ -1,0 +1,42 @@
+ /*------------------------------------*\
+    #TABLE OF CONTENTS
+\*------------------------------------*/
+/**
+ * ABSTRACTS..............................Declarations of Sass variables & mixins
+ * BASE...................................Default element styles
+ * LAYOUT.................................Layout-specific styles
+ * COMPONENTS.............................Component styles
+ * UTILITIES..............................Utility classes
+ */
+
+/*------------------------------------*\
+    #ABSTRACTS
+\*------------------------------------*/
+@import './components/fonts';
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+
+
+
+
+/*------------------------------------*\
+#BASE
+\*------------------------------------*/
+@import "./base/body";
+
+
+
+/*------------------------------------*\
+    #COMPONENTS
+\*------------------------------------*/
+@import "./components/navbar";
+@import "./components/footer";
+@import "./components/button";
+@import './components/signIn';
+@import './components//shoes';
+@import './components//form';
+@import './components/upcoming';
+@import './components/app';
+@import './components/progress';
+@import './components/lastSection';

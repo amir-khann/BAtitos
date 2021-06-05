@@ -1,0 +1,32 @@
+body {
+    font-family: Varela;
+    margin: 0;
+    padding: 0;
+	background: black;
+}
+
+*{
+    font-family: Veral !important;
+    margin: 0;
+    padding: 0;
+}
+
+.example-btn{
+    background: #fff;
+    height:50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+};
+
+.container {
+    max-width: 90%;
+    margin: 0px auto;
+}
+
+button {
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}

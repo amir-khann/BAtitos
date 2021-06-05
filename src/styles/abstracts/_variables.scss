@@ -1,0 +1,141 @@
+
+ /*------------------------------------*\
+     #COLORS
+ \*------------------------------------*/
+
+$color-brand-blue: #0000ff;
+
+/**
+ * Neutral Colors
+ * 1) Neutral colors are grayscale values used throughout the UI
+ */
+$color-white: #fff;
+$color-gray-02: #f9f9f9;
+$color-gray-07: #eee;
+$color-gray-13: #ddd;
+$color-gray-27: #bbb;
+$color-gray-50: #808080;
+$color-gray-60: #666;
+$color-gray-73: #444;
+$color-gray-93: #131313;
+$color-black: #000;
+$water-melon:#f54e62;
+
+;
+
+
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+/**
+ * Font Family
+ */
+$font-primary: "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$font-secondary: serif;
+
+
+/**
+ * Font Sizing
+ */
+$font-size-sm: 0.75rem;
+$font-size-sm-2: 0.85rem;
+$font-size-med: 1rem;
+$font-size-med-2: 1.2rem;
+$font-size-large: 2rem;
+$font-size-xl: 3rem;
+
+/**
+ * Line Height
+ */
+$line-height: 1.5;
+
+$font-size-h1: 48px !default;
+$font-size-h2: 36px !default;
+$font-size-h3: 27px !default;
+$font-size-h4: 19px !default;
+
+
+
+
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+/**
+ * Max Width
+ */
+$l-max-width: 60rem !default;
+$l-linelength-width: 36rem !default;
+
+
+
+
+
+/*------------------------------------*\
+    #SPACING
+\*------------------------------------*/
+
+/**
+ * Spacing and offsets
+ * 1) Used to space grids and body padding
+ */
+
+$spacing: 1rem;
+$spacing-small: round(0.5 * $spacing);
+$spacing-large: round(2 * $spacing);
+
+
+
+
+
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+
+/**
+ * Border
+ */
+ $border-thickness: 1px;
+
+/**
+ * Border radius
+ */
+$border-radius: 4px;
+
+
+
+
+
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+
+/**
+ * Transition Speed
+ */
+$anim-fade-quick: 0.15s;
+$anim-fade-long: 0.4s;
+
+/**
+ * Transition Ease
+ */
+$anim-ease: ease-out;
+
+
+
+
+
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
+
+/**
+ * Breakpoints used in media queries
+ * 1) These are not the only breakpoints used, but they provide a few defaults
+ */
+$bp-small: 28em;
+$bp-med: 47em;
+$bp-large: 60em;
+$bp-xl: 70em;

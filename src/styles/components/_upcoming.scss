@@ -1,0 +1,35 @@
+
+.box{
+        width: 380px;
+        height: 290px;
+        border-radius: 15px;
+        background-color: #223c51;
+        display: flex;
+        margin: 5rem 0rem;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        @media only screen and (max-width: 640px) {
+            width:352px ;
+            height: 253px;
+            margin-left: 17px;
+          }
+       .pic{
+          
+           margin: -50px;
+       }
+        img{
+            width: 250px;
+            height: 250px;
+            position: relative;
+            top: -90px;
+           
+           
+        
+        }
+        p{
+            color: white;
+            font-size: 18px;
+        }
+
+}
